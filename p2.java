@@ -16,7 +16,7 @@ public class p2 extends JDialog implements ActionListener{
     Color c = new Color(230, 212, 183);
     Font f=new Font("Verdana",Font.BOLD,35);
     p2(){
-        setContentPane(new JLabel(new ImageIcon("D:\\VSCODE\\FoodMenu\\Main.jpg")));
+        setContentPane(new JLabel(new ImageIcon("Backgrounds/Main.jpg")));
         I=new JButton("INDIAN");
         F=new JButton("FRENCH");
         IT=new JButton("ITALIAN");
